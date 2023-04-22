@@ -1,0 +1,35 @@
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+.marker-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .marker-popup h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .marker-popup p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .marker-popup .active {
+    color: #e91e63;
+  }
+  
+  .marker-popup .recovered {
+    color: #4caf50;
+  }
+  
+  .marker-popup .deaths {
+    color: #f44336;
+  }
+  
